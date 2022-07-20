@@ -1,0 +1,181 @@
+/*
+Theme Name: SM Theme
+Description: Es un tema para la prueba de sm
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+*/
+
+.sectionbanner {
+    background-color: #091319;
+    padding: 48px 32px;
+}
+
+.divisorverde {
+    width: 30%;
+    background-color: #c1ea03;
+    height: 10px;
+    margin-right: auto;
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.menu-item:hover a {
+    color: #c1ea03;
+}
+
+.acomodoflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.redes-sociales svg {
+    font-size: 32px;
+    color: #fff;
+    margin: 0 10px;
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.redes-sociales svg:hover {
+    color: #c1ea03;
+}
+
+#linea-green {
+    background: linear-gradient( to bottom, transparent 70%, #C1EA03 70%);
+}
+
+.custom-logo-link img {
+    width: 160px;
+    height: auto;
+}
+
+.flotante-ws {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    background-color: #25D366;
+    border-style: solid;
+    border-color: #25D366;
+    border-radius: 200% 200% 200% 200%;
+    box-shadow: 1px 8px 10px 0px rgb(0 0 0 / 18%);
+    padding: 0px 15px 0px 15px;
+    font-size: 46px;
+    color: #fff;
+}
+
+.flotante-ws:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #25D366;
+}
+
+.navbar.navbar {
+    background-color: #011826;
+    padding: 2% 10% 2% 10%;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FFFFFF7A;
+    margin-bottom: 16px;
+}
+
+.navbar-nav {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+}
+
+.navbar-nav li {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.page-numbers {
+    position: relative;
+    display: inline-block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.sm-paginacion {
+    text-align: center;
+}
+
+.formulario {
+    background-color: #F4F4F4;
+    padding: 22px 16px;
+    font-size: 20px;
+    width: 86%;
+}
+
+.formulario input {
+    background-color: #F4F4F4;
+    border-radius: 12px;
+    padding: 3px 16px;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+.boton input {
+    background-color: #009bdb;
+    color: #fff;
+    border-color: #011826;
+    border-radius: 32px;
+    padding: 9px 16px;
+    width: 100%;
+    border: 1px solid;
+    margin-top: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+
+.boton p {
+    text-align: center;
+}
+
+.formulario .wpcf7-list-item {
+    display: flex;
+    margin-left: 0;
+}
+
+.formulario .wpcf7-list-item label {
+    display: flex;
+    margin-right: 5px;
+    align-items: baseline;
+    font-size: 13px;
+}
+
+.formulario .wpcf7-list-item label input {
+    width: 35px;
+}
+
+@media (max-width: 575px) {
+    .acomodoflex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .acomodoflex img {
+        width: 80%;
+        margin-bottom: 16px;
+    }
+    .acomodoflex h3 {
+        text-align: center;
+    }
+}
